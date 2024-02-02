@@ -28,7 +28,7 @@ public class StudentGrade {
                 highest = grade[x];
             }
 
-            else {
+            else if (grade[x] < lowest) {
 
                 lowest = grade[x];
             }
